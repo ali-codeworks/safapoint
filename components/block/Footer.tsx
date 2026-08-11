@@ -83,10 +83,11 @@ export const Footer = () => {
           </h4>
           <ul className="space-y-3 text-sm text-gray-400">
             <li className="flex items-center gap-2">
-              <Phone size={16} className="text-amber-500" /> +91 98765 43210
+              <Phone size={16} className="text-amber-500" /> +91 9990970056
             </li>
             <li className="flex items-center gap-2">
-              <Mail size={16} className="text-amber-500" /> hello@safapoint.in
+              <Mail size={16} className="text-amber-500" />{" "}
+              ansariali.developer@gmail.com
             </li>
             <li className="flex items-center gap-2">
               <MapPin size={16} className="text-amber-500" /> Mumbai, India
