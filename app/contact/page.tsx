@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, MessageCircle, Clock } from "lucide-react";
+import { Metadata } from "next";
 
 const contactDetails = [
   {
@@ -52,6 +53,12 @@ const faqs = [
 
 const isExternalLink = (href: string) =>
   href.startsWith("http") || href.startsWith("mailto:");
+
+export const metadata: Metadata = {
+  title: "Contact",
+  description:
+    "Get in touch with SafaPoint for safa & pagdi artist bookings. Call, WhatsApp, or email us for your wedding or event.",
+};
 
 export default function Contact() {
   return (
